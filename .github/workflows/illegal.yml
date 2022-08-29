@@ -8,4 +8,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - run: whoami
+        - name: Harden Runner
+          uses: step-security/harden-runner@v1.4.5
+        - run: whoami
