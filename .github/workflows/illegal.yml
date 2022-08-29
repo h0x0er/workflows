@@ -1,0 +1,11 @@
+name: Invalid Chars
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: whoami
