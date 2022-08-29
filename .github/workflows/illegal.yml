@@ -1,10 +1,10 @@
-name: Invalid Chars
+name: Invalid\nChars
 
 on:
   workflow_dispatch:
 
 jobs:
-  less<Than:
+  lessThan:
     runs-on: ubuntu-latest
 
     steps:
