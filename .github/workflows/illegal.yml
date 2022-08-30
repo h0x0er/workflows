@@ -1,4 +1,4 @@
-name: Invalid\nChars
+name: Invalid Chars
 
 on:
   workflow_dispatch:
