@@ -5,7 +5,7 @@ on:
 
 jobs:
   lessThan:
-    name: tango!@#$%^&*()_+/<>?:;~`django
+    name: tango!#$%\()*+,-./:;<=>?@[\\]^_`{|}~ \t\n\rdjango
     runs-on: ubuntu-latest
 
     steps:
