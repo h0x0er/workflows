@@ -5,7 +5,7 @@ on:
 
 jobs:
   lessThan:
-    name: tango!#$%\()*+,-./:;<=>?@[\\]^_`{|}~ \t\n\rdjango
+    name: pattern-!#$%&\()*+,-./:;<=>?@[\\]^_`{|}~
     runs-on: ubuntu-latest
 
     steps:
