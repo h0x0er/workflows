@@ -1,11 +1,11 @@
-name: PipeBadChar
+name: BadChar
 
 on:
   workflow_dispatch:
 
 jobs:
   lessThan:
-    name: tango|django
+    name: tango!@#$%^&*()_+/<>?:;~`django
     runs-on: ubuntu-latest
 
     steps:
