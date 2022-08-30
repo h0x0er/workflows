@@ -5,6 +5,7 @@ on:
 
 jobs:
   lessThan:
+    name: tango<django
     runs-on: ubuntu-latest
 
     steps:
