@@ -1,11 +1,11 @@
-name: Invalid Chars
+name: PipeBadChar
 
 on:
   workflow_dispatch:
 
 jobs:
   lessThan:
-    name: tango:django
+    name: tango|django
     runs-on: ubuntu-latest
 
     steps:
