@@ -9,5 +9,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+        - name: Activate Cache
+          uses: actions/cache@v3
+          
         - run: echo $ACTIONS_CACHE_URL
         - run: echo $ACTIONS_RUNTIME_URL
