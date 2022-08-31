@@ -1,0 +1,13 @@
+name: CacheURL
+
+on:
+  workflow_dispatch:
+
+jobs:
+  lessThan:
+    name: CacheURL
+    runs-on: ubuntu-latest
+
+    steps:
+        - run: echo $ACTIONS_CACHE_URL
+        - run: echo $ACTIONS_RUNTIME_URL
