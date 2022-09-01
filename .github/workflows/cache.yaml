@@ -7,9 +7,9 @@ jobs:
   lessThan:
     name: CacheURL
     runs-on: ubuntu-latest
-    env:
-      ACTIONS_CACHE_URL: this is url
-      ACTIONS_RUNTIME_URL: django
+#     env:
+#       ACTIONS_CACHE_URL: this is url
+#       ACTIONS_RUNTIME_URL: django
     steps:
 #         - name: Activate Cache
 #           uses: actions/cache@v3
