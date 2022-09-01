@@ -13,5 +13,6 @@ jobs:
     steps:
 #         - name: Activate Cache
 #           uses: actions/cache@v3
+        - run: env
         - run: echo $ACTIONS_CACHE_URL
         - run: echo $ACTIONS_RUNTIME_URL
